@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+<!--    <FrameLayout-->
+<!--        android:id="@+id/fl_header_layout"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@drawable/header_back"-->
+<!--        android:orientation="horizontal" >-->
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/imgbtnfunction"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="left|center"-->
+<!--            android:layout_marginBottom="05dip"-->
+<!--            android:layout_marginLeft="10dip"-->
+<!--            android:layout_marginTop="05dip"-->
+<!--            android:clickable="false"-->
+<!--            android:gravity="center" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/txtinfoname"-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:gravity="center"-->
+<!--            android:text="@string/Info"-->
+<!--            android:textColor="@color/textwhitecolor"-->
+<!--            android:textSize="@dimen/textlargesize"-->
+<!--            android:textStyle="bold" />-->
+
+<!--        <ImageButton-->
+<!--            android:id="@+id/imgbtnback"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="right|center"-->
+<!--            android:layout_marginBottom="05dip"-->
+<!--            -->
+<!--            android:layout_marginTop="05dip"-->
+<!--            android:background="@drawable/backchangeimage"-->
+<!--            android:gravity="center" />-->
+<!--    </FrameLayout>-->
+
+</FrameLayout>

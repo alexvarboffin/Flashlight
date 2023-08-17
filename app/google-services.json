@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "520540321403",
+    "project_id": "bovada-ba3b9",
+    "storage_bucket": "bovada-ba3b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520540321403:android:eb737fc9d6a7de2ee594de",
+        "android_client_info": {
+          "package_name": "com.bovada.unoprom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520540321403-vluoid98bdldubspblm7ua9kbar4ckl4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bovada.unoprom",
+            "certificate_hash": "a4ec1cd6b4594590fc90546d95c365295be89e8a"
+          }
+        },
+        {
+          "client_id": "520540321403-cbhlb1pau64sslsd0c6jufkcg6cpmhoj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARsn8EsII4M-2goAVQvdT1QpcsCnlTE9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520540321403-cbhlb1pau64sslsd0c6jufkcg6cpmhoj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

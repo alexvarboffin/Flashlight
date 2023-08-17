@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llmainactivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:orientation="vertical">
+
+    <!--    <include-->
+    <!--        android:id="@+id/stopscanheader"-->
+    <!--        android:layout_width="fill_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        layout="@layout/header_layout" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="fill_parent"-->
+        <!--            android:layout_height="0dp"-->
+        <!--            android:layout_weight="0.50"-->
+        <!--            android:gravity="center"-->
+        <!--            android:orientation="horizontal" >-->
+
+        <!--            <LinearLayout-->
+        <!--                android:id="@+id/llflashlgt"-->
+        <!--                android:layout_width="0dp"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_weight="0.50"-->
+        <!--                android:orientation="vertical" >-->
+
+        <!--                <ImageButton-->
+        <!--                    android:id="@+id/imgbtnflashlgt"-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_gravity="center"-->
+        <!--                    android:background="@drawable/torch_change_image" />-->
+        <!--            </LinearLayout>-->
+        <!--        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.50"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.50"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imgbtnpolicelight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/police_change_image" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.50"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imgbtnscreenlgt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/screen_lgt_change_image" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.50"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imgbtntraficsignallgt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/traffic_change_image" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.50"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/llflashlgtblnk"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.50"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imgbtnflashlgtblnk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/blinking_change_image" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.50"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imgbtnscreenbackground"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/bg_change_image" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_Buy_PRO"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="50dip"-->
+<!--        android:background="@drawable/bluebutton_change_image"-->
+<!--        android:text="Buy Pro"-->
+<!--        android:textColor="@color/textwhitecolor"-->
+<!--        android:textSize="@dimen/textlargesize"-->
+<!--        android:textStyle="bold"-->
+<!--        android:visibility="gone" />-->
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundblackcolor">
+
+
+<!--        <FrameLayout-->
+<!--            android:layout_width="fill_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@color/backgroundblackcolor">-->
+
+<!--            <com.google.android.gms.ads.AdView-->
+<!--                -->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                ads:adSize="SMART_BANNER"-->
+<!--                ads:adUnitId="ca-app-pub-9366591393970813/4561978780" />-->
+<!--        </FrameLayout>-->
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:orientation="vertical"
+    android:id="@+id/rootView">
+
+    <!--    <include-->
+    <!--        android:layout_width="fill_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        layout="@layout/header_layout_2" />-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/imgbtnsimpleflashlgt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/lgt_start"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="1dp"
+        android:layout_height="1dp" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundblackcolor">
+
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/backgroundblackcolor">
+
+<!--            <com.google.android.gms.ads.AdView-->
+<!--                -->
+<!--                android:layout_width="fill_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                ads:adSize="SMART_BANNER"-->
+<!--                ads:adUnitId="ca-app-pub-9366591393970813/4561978780" />-->
+        </FrameLayout>
+    </FrameLayout>
+
+</LinearLayout>

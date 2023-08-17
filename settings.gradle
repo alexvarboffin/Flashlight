@@ -1,0 +1,27 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url "https://jitpack.io"
+        }
+    }
+}
+rootProject.name = "Flashlight"
+include ':app'
+
+//include ':corelib'
+apply from: 'D:\\walhalla\\gambling\\kwk_flappy\\corelib\\submodules.gradle'
+
+include ':flashlights'
+
+include ':ui'
+project(':ui').projectDir = new File('D:\\walhalla\\sdk\\android\\UI\\ui')

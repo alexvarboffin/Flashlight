@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/icon_police_light_click_100x100" 
+        android:state_pressed="true"/>
+    <item android:drawable="@drawable/icon_police_light_click_100x100" 
+        android:state_focused="true"/>
+    
+    <item android:drawable="@drawable/icon_police_light_100x100" />
+
+</selector>
